@@ -24,5 +24,11 @@ class calculadora {
 	public float RESTA(){
 		return num1-num2;
 	}
+	public void imprimir(){
+		System.out.println("suma"+SUMA());
+		System.out.println("resta "+RESTA());
+		System.out.println("division"+ DIVISION());
+		System.out.println("multiplicacion"+ MULTIPLICACION());
+	}
 }
 
